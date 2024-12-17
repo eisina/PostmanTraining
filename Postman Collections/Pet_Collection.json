@@ -57,7 +57,8 @@
 									"//fork updated",
 									"//updated with approve",
 									"//merge and approve",
-									"//chnages from main from fork"
+									"//chnages from main from fork",
+									"//updated without merge"
 								],
 								"type": "text/javascript",
 								"packages": {}
