@@ -97,16 +97,15 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "fedd29e9-58c8-41e8-be08-480331de3d86",
+								"id": "19001f33-2630-46ab-ad50-0a8bec398cd0",
 								"exec": [
-									"pm.test(\"Status code is 200\", function () {",
+									"pm.test(\"Updated for git Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
 									"});",
 									"",
 									"pm.test(\"Response time is less than 200ms\", function () {",
 									"    pm.expect(pm.response.responseTime).to.be.below(200);",
 									"});",
-									"",
 									"",
 									"",
 									"console.log(encodeURIComponent(\"component log\"));",
@@ -126,7 +125,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "19ba40c0-12da-4391-bdfa-925c17300352",
+								"id": "d8859a95-2fbf-4024-ad52-9d44857c0681",
 								"exec": [
 									"const postPetRequest = {",
 									"    url: pm.globals.get('baseUrl')+'/pet',",
