@@ -51,7 +51,12 @@
 									"    pm.test(\"Get Pet Request response OK\", function(){",
 									"        pm.expect(response.status).to.eql(\"OK\");",
 									"    })",
-									"})"
+									"})",
+									"",
+									"",
+									"//fork updated",
+									"//updated with approve",
+									"//merge and approve"
 								],
 								"type": "text/javascript",
 								"packages": {}
