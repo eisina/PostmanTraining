@@ -33,7 +33,7 @@
 									"    pm.response.to.have.status(200);",
 									"});",
 									"",
-									"pm.test(\"Pet name\", function () {",
+									"pm.test(\"Pet name update\", function () {",
 									"    var jsonData = pm.response.json();",
 									"    pm.expect(jsonData.name).to.eql(petName);",
 									"});",
